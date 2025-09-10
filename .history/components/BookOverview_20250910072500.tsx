@@ -59,7 +59,12 @@ const BookOverview = ({
             coverImage={cover}
           />
           <div className="absolute top-10 left-16 rotate-12 opacity-40 max-sm:hidden">
-            <BookCover variant="wide" coverColor={color} coverImage={cover} />
+            <BookCover
+              variant="wide"
+              className="z-10"
+              coverColor={color}
+              coverImage={cover}
+            />
           </div>
         </div>
       </div>
