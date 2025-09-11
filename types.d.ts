@@ -12,6 +12,11 @@ interface Book {
   videoUrl: string;
   summary: string;
   createdAt: Date | null;
+  total_copies;
+  available_copies;
+  description;
+  color;
+  cover;
 }
 
 interface AuthCredentials {
